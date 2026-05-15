@@ -2,7 +2,7 @@
 
 A Python/Tkinter desktop application for **Wanderlust Travel Agency** - search destinations, build itineraries, book trips, and find travel companions, all in one app.
 
-Built as part of RMIT University Software Development - Assessment Task 3A (2026).
+Built for Assessment Task 3A (2026).
 
 ---
 
