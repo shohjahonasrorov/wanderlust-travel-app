@@ -101,4 +101,4 @@ wanderlust-travel-app/
 
 ---
 
-*Wanderlust Travel App - RMIT University 2026*
+*Wanderlust Travel App*
