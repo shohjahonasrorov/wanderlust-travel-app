@@ -1,33 +1,33 @@
 # ✈ Wanderlust Travel App
 
-A Python/Tkinter desktop application for **Wanderlust Travel Agency** — search destinations, build itineraries, book trips, and find travel companions, all in one app.
+A Python/Tkinter desktop application for **Wanderlust Travel Agency** - search destinations, build itineraries, book trips, and find travel companions, all in one app.
 
-Built as part of RMIT University Software Development — Assessment Task 3A (2026).
+Built as part of RMIT University Software Development - Assessment Task 3A (2026).
 
 ---
 
 ## Features
 
-- 🔐 **Login & Registration** — secure accounts with hashed passwords
-- 🔍 **Destination Search** — filter by type, style, dates, and budget
-- 📋 **Itinerary Builder** — add flights and hotels, live running cost total
-- 💳 **Payment Screen** — validated card details, booking reference generated
-- 💾 **Saved Trips** — save and reload itineraries from your account
-- 📄 **Trip Export** — download a `.txt` summary of your booking
-- 👥 **Companion Discovery** — post trips and browse travel companions
+- 🔐 **Login & Registration** - secure accounts with hashed passwords
+- 🔍 **Destination Search** - filter by type, style, dates, and budget
+- 📋 **Itinerary Builder** - add flights and hotels, live running cost total
+- 💳 **Payment Screen** - validated card details, booking reference generated
+- 💾 **Saved Trips** - save and reload itineraries from your account
+- 📄 **Trip Export** - download a `.txt` summary of your booking
+- 👥 **Companion Discovery** - post trips and browse travel companions
 
 ---
 
 ## Requirements
 
-- **Python 3.10 or later** — [download here](https://www.python.org/downloads/)
-- No additional libraries needed — uses Python's standard library only
+- **Python 3.10 or later** - [download here](https://www.python.org/downloads/)
+- No additional libraries needed - uses Python's standard library only
 
 ---
 
 ## How to Run
 
-### Option 1 — Clone and run (recommended)
+### Option 1 - Clone and run (recommended)
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/wanderlust-travel-app.git
@@ -35,11 +35,11 @@ cd wanderlust-travel-app
 python wanderlust_app.py
 ```
 
-### Option 2 — Windows double-click launcher
+### Option 2 - Windows double-click launcher
 
-After cloning, just double-click **`run.bat`** — it checks for Python and launches the app automatically.
+After cloning, just double-click **`run.bat`** - it checks for Python and launches the app automatically.
 
-### Option 3 — Mac / Linux
+### Option 3 - Mac / Linux
 
 ```bash
 bash run.sh
@@ -57,7 +57,7 @@ On first launch, the app automatically creates a local `wanderlust.db` SQLite da
 
 ```
 wanderlust-travel-app/
-├── wanderlust_app.py     # Main application — all screens and logic
+├── wanderlust_app.py     # Main application - all screens and logic
 ├── requirements.txt      # Python dependencies (none required currently)
 ├── run.bat               # Windows launcher
 ├── run.sh                # Mac/Linux launcher
@@ -83,7 +83,7 @@ wanderlust-travel-app/
 
 ## Developer Notes
 
-- Passwords stored as **SHA-256 hashes** — never plain text
+- Passwords stored as **SHA-256 hashes** - never plain text
 - Payment card details are **validated but never stored**
 - All validation functions are independently testable (see Testing Report)
 - Code follows **PEP 8** style guidelines throughout
@@ -101,4 +101,4 @@ wanderlust-travel-app/
 
 ---
 
-*Wanderlust Travel App — RMIT University 2026*
+*Wanderlust Travel App - RMIT University 2026*
